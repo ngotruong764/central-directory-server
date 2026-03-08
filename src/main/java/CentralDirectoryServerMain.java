@@ -35,7 +35,6 @@ public class CentralDirectoryServerMain {
             // Bind the remote object (stub) to the registry
             registry.rebind("IDirectoryService", stub);
 
-
             logger.info("Server ready");
         } catch (RemoteException e) {
             logger.log(Level.FINER, e.toString());
