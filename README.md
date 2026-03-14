@@ -10,4 +10,5 @@ The server itself does not store files. It only manages file location informatio
 
 ## Running the Server
 2. Start RMI Registry  
-   ``export CLASSPATH=.:lib/common-service-1.0-SNAPSHOT.jar rmiregistry``
+   ``export CLASSPATH=.:lib/common-service-1.0-SNAPSHOT.jar``   
+   ``rmiregistry``
